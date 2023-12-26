@@ -1,0 +1,58 @@
+<html>
+<head>
+<title>acceuil</title>
+<link rel="stylesheet" type="text/css" href="../css/carnet.css" />
+<meta charset="UTF-8" >
+</head>
+<body>
+	<div class="menu">
+		<div class="p1">
+			Gestion de transport..
+		</div>
+		<ul>
+			<li class="mo"><a class="ac" href="acceuil copy.html">Acceuil</a></li>
+			<li><a>Park</a>
+				<ul>
+					<li><a href="cher_park.html">Recuperer</a></li>				
+					<li><a href="index_park.html">Ajouter</a></li>
+				</ul></li>
+			<li><a>Bus</a>
+				<ul>
+					<li><a href="cher_bus.html">Recuperer</a></li>				
+					<li><a href="../php/liste_bus.php">Lister</a></li>
+					<li><a href="index_bus.html">Ajouter</a></li>
+					<li><a href="cher_revenue.html">Revenue</a></li>
+				</ul></li>		
+			<li><a>Carnet</a>
+				<ul>
+					<li><a href="../php/liste_carnet.php">Lister</a></li>
+					<li><a href="index_carnet.html">Ajouter</a></li>
+				</ul></li>			
+			<li><a>Ticket</a>
+				<ul>
+					<li><a href="../php/liste_ticket.php">Lister</a></li>
+					<li><a href="index_ticket.html">Ajouter</a></li>
+				</ul></li>
+			<li><a>Passage</a>
+				<ul>
+					<li><a href="../php/liste_passage.php">Lister</a></li>
+					<li><a href="index_passage.html">Ajouter</a></li>
+				</ul></li>
+		</ul>
+	</div>
+	<div class="beb">
+			<div class="cont">
+				<h3>Ajout d'un carnet...</h3><br>
+				<form method="post" action="../php/insert_carnet.php">
+				<label for="numc">Matricule Du Carnet</label>
+				<input type="text" id="numc" name="id_carnet" placeholder="matricule du carnet" required>
+				<label for="mat">Matricule Du Bus</label>
+				<input type="text" id="mat" name="id_bus" placeholder="le matricule du bus dont le carnet est composant" required>
+				<center><input type="submit" value="Envoyer"></center>
+				<input type="reset" value="annuler">
+				<br>
+			</form>
+			</div>
+	<div>
+</body>
+</html>

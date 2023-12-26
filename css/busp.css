@@ -1,0 +1,205 @@
+*
+{
+	padding: 0;
+	margin: 0;
+	font-family:  "Century Gothic";
+}
+
+body
+{
+	background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("../photo/bus.png");
+	background-size: cover;
+}	
+
+ul
+{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	float: right;
+}
+
+ul li{
+	display: inline-block;
+	width: 100px;
+	line-height: 55px;
+	text-align: center;
+	transition: 0.8s;
+}
+
+ul li:hover{
+	background-color: yellow;
+}
+
+ul li:hover a{
+	color: black;
+}
+
+ul li:hover ul li{
+	display: block;
+}
+
+
+ul li ul li{
+	background-color: white;
+	display: none;
+}
+
+ul li ul li:hover a{
+	font-style: italic;
+	color: white;
+}
+
+ul li ul li:hover{
+	background-color: steelblue;
+}
+
+ul .mo
+{
+	display: inline-block;
+	width: 125px;
+	line-height: 55px;
+	text-align: center;
+	background-color: white;
+	transition: 1.5s ease;
+	
+}
+
+ul .mo:hover
+{
+	background-color: transparent;
+}
+
+ul li .ac
+{
+	color: black;
+	font-weight: bold;
+}
+
+ul li a{
+	color: yellow;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+
+.menu
+{
+	margin-top: 15px;
+	max-width: 1500px;
+	margin-left: 50px;
+}
+
+.beb
+{
+	position: absolute;
+	top: 60%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	background-color: transparent;
+	border: 3px solide transparent;
+	border-top-left-radius: 10% 50%;
+	border-bottom-left-radius: 10% 50%;
+	text-align: left;
+	padding: 30px;
+	width:30%;
+	margin: auto;
+	color: white;
+}
+
+.beb .cont label
+{
+	color: white;
+}
+
+.beb:hover
+{
+	background-color: yellow;
+	color: black;
+}
+
+.beb:hover .cont label
+{
+	color: black;
+}
+label
+{
+	color: white;
+	font-size: 20px;
+	width: 100%;
+	color: black;
+	margin: 15px;
+	font-weight: bold;
+}
+
+input[type=text] , input[type=number]
+{
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 10px 10px 10px 10px;
+  margin-top: 10px;
+  margin-bottom: 16px;
+}
+
+input[type=submit]:hover
+{
+	background-color: green;
+	color: white;
+}
+
+input[type=reset]:hover
+{
+	background-color: red;
+	color: white;
+}
+
+input[type=submit] , input[type=reset]
+{
+	border: 3px solid white;
+	border-radius: 40px 40px;
+	background-color: black;
+	color: white;
+	font-size: 15px;
+	float: right;
+	padding: 15px;
+	transition: 0.8s ease;
+}
+
+input[type=reset]
+{
+	border: 3px solid white;
+	border-radius: 40px 40px;
+	background-color: black;
+	color: white;
+	font-size: 15px;
+	float: right;
+	padding: 15px;
+	transition: 0.8s ease;
+	margin-right: 150px;
+}
+
+
+.cont
+{
+	width: 90%;
+	float: right;
+
+}
+
+.p1
+{
+	position: fixed;
+	color: white;
+	border: 3px solid transparent; 
+	border-radius: 40px;
+	margin-top: 10px;
+	float: left;
+	font-size: 40px;
+	text-shadow: 30px 20px 7px yellow;
+	height: auto;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-style: italic;	
+	transition: 10s ease;
+}

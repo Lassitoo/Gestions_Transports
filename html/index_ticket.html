@@ -1,0 +1,65 @@
+<html>
+<head>
+<title>acceuil</title>
+<link rel="stylesheet" type="text/css" href="../css/ticket.css" />
+<meta charset="UTF-8" >
+</head>
+<body>
+<div class="menu">
+	<div class="p1">
+		Gestion de transport..
+	</div>
+	<ul>
+		<li class="mo"><a class="ac" href="../html/acceuil copy.html">Acceuil</a></li>
+		<li><a>Park</a>
+			<ul>
+				<li><a href="../html/cher_park.html">Recuperer</a></li>				
+				<li><a href="../html/index_park.html">Ajouter</a></li>
+			</ul></li>
+		<li><a>Bus</a>
+			<ul>
+				<li><a href="../html/cher_bus.html">Recuperer</a></li>				
+				<li><a href="../php/liste_bus.php">Lister</a></li>
+				<li><a href="../html/index_bus.html">Ajouter</a></li>
+				<li><a href="cher_revenue.html">Revenue</a></li>
+			</ul></li>		
+		<li><a>Carnet</a>
+			<ul>
+				<li><a href="../php/liste_carnet.php">Lister</a></li>
+				<li><a href="../html/index_carnet.html">Ajouter</a></li>
+			</ul></li>			
+		<li><a>Ticket</a>
+			<ul>
+				<li><a href="../php/liste_ticket.php">Lister</a></li>
+				<li><a href="../html/index_ticket.html">Ajouter</a></li>
+			</ul></li>
+		<li><a>Passage</a>
+			<ul>
+				<li><a href="../php/liste_passage.php">Lister</a></li>
+				<li><a href="../html/index_passage.html">Ajouter</a></li>
+			</ul></li>
+	</ul>
+</div>
+	<div class="beb">
+			<div class="cont">
+				<h3>Ajout d'un ticket...</h3><br>
+				<form method="post" action="../php/insert_ticket.php">
+				<label for="numt">Matricule Du Ticket</label>
+				<input type="text" id="numt" name="id_tickets" placeholder="matricule du ticket" required>
+				<label for="numc">Matricule Du Carnet</label>
+				<input type="text" id="numc" name="id_carnet" placeholder="matricule du carnet dou il provient" required>
+				<label for="eta">Etat</label>
+				<select id="eta" name="etat" >
+				<option value="disponible">Disponible</option>
+				<option value="vendue">Vendue</option>
+				</select>
+				<label for="prx">Prix</label>
+				<input type="number" id="prx" name="prix" required>	
+				<center><input type="submit" value="Envoyer"></center>
+				<input type="reset" value="annuler">
+				<br>
+			</form>
+			</div>
+	<div>
+</body>
+</html>

@@ -1,0 +1,166 @@
+
+body
+{
+	background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)),url("../photo/revenue.jpg");
+	background-size: cover;
+	height: 150vh;
+	font-family:  "Century Gothic";
+	background-position: center;
+	color: transparent;
+}	
+
+ul
+{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	float: right;
+}
+
+ul li{
+	display: inline-block;
+	width: 100px;
+	line-height: 55px;
+	text-align: center;
+	transition: 0.8s;
+	border: 1px solid black;
+}
+
+ul li:hover{
+	background-color: black;
+}
+
+ul li:hover a{
+	color: white;
+}
+
+ul li:hover ul li{
+	display: block;
+}
+
+
+ul li ul li{
+	background-color: white;
+	display: none;
+}
+
+ul li ul li:hover a{
+	font-style: italic;
+	color: white;
+}
+
+ul li ul li:hover{
+	background-color: steelblue;
+}
+
+ul .mo
+{
+	display: inline-block;
+	width: 125px;
+	line-height: 55px;
+	text-align: center;
+	background-color: white;
+	transition: 1.5s ease;
+	border: 1px solid transparent;
+}
+
+ul .mo:hover
+{
+	background-color: transparent;
+}
+
+ul li .ac
+{
+	color: black;
+	font-weight: bold;
+}
+
+ul li:hover ul li a{
+	color: black;
+	text-decoration: none;
+	font-weight: bold;
+}	
+
+ul li a{
+	color: black;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+.menu
+{
+	margin-top: 15px;
+	max-width: 1500px;
+	margin-left: 50px;
+}
+
+.beb
+{
+	position: absolute;
+	top: 50%;
+	width: 100%;
+}
+
+
+h1
+{
+	text-align: center;
+	margin-left: 300px;
+	margin-right: 300px;
+	background-color: gainsboro;
+	color: black;
+	border: 3px solid transparent; 
+	border-radius: 40px;
+	transition: 3s ease;
+	transition-delay: 3s;
+	font-weight: bold;
+	margin-bottom: 70px;
+}
+
+h1:hover
+{
+	background-color: transparent;
+	color: white;
+}
+
+table {
+	border-collapse: collapse;
+	width: 80%;
+	margin-left: 10%;
+	margin-bottom: 70px;
+}
+
+th{
+	background-color: gainsboro;
+	border: 1px solid white;
+	color: black;
+	line-height: 55px;
+}
+
+td{
+	background-color: papayawhip;
+	color: black;
+	border: 1px solid white;
+	text-align: center;
+	font-weight: bold;
+	line-height: 55px;
+}
+
+
+.p1
+{
+	position: relative;
+	color: white;
+	border: 3px solid transparent; 
+	border-radius: 40px;
+	margin-top: 10px;
+	float: left;
+	font-size: 40px;
+	text-shadow: 30px 20px 7px black;
+	height: auto;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-style: italic;	
+	transition: 3s ease;
+	transition-delay: 3s;
+}

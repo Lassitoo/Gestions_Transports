@@ -1,0 +1,94 @@
+body
+{
+	background-image: url("../photo/bienvenue.jpg");
+	background-position: center;
+	background-size: cover;
+	font-family: "Century Gothic";
+}
+
+.beb
+{
+	color: black;
+	border: 3px solide transparent;
+	border-top-left-radius: 10% 50%;
+	border-bottom-left-radius: 10% 50%;
+	border-top-right-radius: 10% 50%;
+	border-bottom-right-radius: 10% 50%;
+	position: absolute;
+	top: 10%;
+	left: 38%;
+	transform: translate(-50%,-50%);
+	text-align: left;
+	padding: 30px;
+	width: 15%;
+	margin: auto;
+	background-color: salmon;
+	color: white;
+	text-align: center;
+	box-shadow: -40px 40px 5px coral;
+}
+.bob
+{
+	position: absolute;
+	top: 50%;
+	left: 40%;
+	transform: translate(-50%,-30%);
+	text-align: left;
+	width: 50%;
+	margin: auto;
+	color: salmon;
+	font-size: 25px;
+	transition: 3s ease;
+}
+
+h1
+{
+	text-shadow: -25px 20px 5px salmon;
+}
+
+.beb:hover
+{
+	background-color: lemonchiffon;
+	width: 30%;
+	transition: 0.8s ease;
+}
+
+.beb:hover a
+{
+	color: whitesmoke;
+	color: black;
+}
+
+a
+{
+	color: white;
+	text-decoration: none;
+}
+
+.opo
+{
+	background-color: red;
+	margin-right: 90%;
+	text-align: center;
+	line-height: 35px;
+	border-radius: 20px 0px 20px 0px;
+}
+
+.opo:hover
+{
+	background-color: silver;
+	transition: 0.5s ease;
+	border-radius: 0px 20px 0px 20px;
+}
+
+.opo:hover a
+{
+	color: white;
+}
+
+a
+{
+	color: black;
+	text-decoration: none;
+	font-weight: bold;
+}

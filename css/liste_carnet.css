@@ -1,0 +1,156 @@
+body
+{
+	background-image: url("../photo/liste_carnet.jpg");
+	background-size: cover;
+	height: 100vh;
+	font-family:  "Century Gothic";
+}	
+
+ul
+{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	float: right;
+}
+
+ul li{
+	display: inline-block;
+	width: 100px;
+	line-height: 55px;
+	text-align: center;
+	transition: 0.8s;
+	border: 1px solid yellow;
+}
+
+ul li:hover{
+	background-color: yellow;
+}
+
+ul li:hover a{
+	color: black;
+}
+
+ul li:hover ul li{
+	display: block;
+}
+
+
+ul li ul li{
+	background-color: white;
+	display: none;
+}
+
+ul li ul li:hover a{
+	font-style: italic;
+	color: white;
+}
+
+ul li ul li:hover{
+	background-color: steelblue;
+}
+
+ul .mo
+{
+	display: inline-block;
+	width: 125px;
+	line-height: 55px;
+	text-align: center;
+	background-color: white;
+	transition: 1.5s ease;
+	border: 1px solid transparent;
+}
+
+ul .mo:hover
+{
+	background-color: transparent;
+}
+
+ul li .ac
+{
+	color: black;
+	font-weight: bold;
+}
+
+ul li a{
+	color: yellow;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+h1
+{
+	margin-top: 20px;
+	text-align: center;
+	margin-left: 300px;
+	margin-right: 300px;
+	background-color: white;
+	color: black;
+	border: 3px solid transparent; 
+	border-radius: 40px;
+	transition: 3s ease;
+	transition-delay: 3s;
+	margin-bottom: 150px;
+}
+
+h1:hover
+{
+	background-color: transparent;
+	color: white;
+}
+
+.beb
+{
+	position: absolute;
+	top: 50%;
+	width: 100%;
+}
+
+table {
+	border-collapse: collapse;
+	width: 80%;
+	margin-left: 10%;
+	margin-bottom: 70px;
+}
+
+
+th{
+	background-color: white;
+	border: 1px solid black;
+	color: black;
+	line-height: 25px;	
+}
+
+td{
+	background-color: tan;
+	color: black;
+	border: 1px solid black;
+	text-align: center;
+	font-weight: bold;
+	border-radius: 20px 20px 20px 20px;
+	line-height: 25px;
+}
+
+.requet
+{
+	border-radius: 50%;
+	border: 1px solid transparent;
+}
+
+.p1
+{
+	position: relative;
+	color: white;
+	border: 3px solid transparent; 
+	border-radius: 40px;
+	margin-top: 10px;
+	float: left;
+	font-size: 40px;
+	text-shadow: 30px 20px 7px yellow;
+	height: auto;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-style: italic;	
+	transition: 3s ease;
+	transition-delay: 3s;
+}

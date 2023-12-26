@@ -1,0 +1,54 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" type="text/css" href="../css/cher.css">
+</head>
+<body>
+	<div class="menu">
+		<div class="p1">
+			Gestion de transport..
+		</div>
+		<ul>
+			<li class="mo"><a class="ac" href="acceuil copy.html">Acceuil</a></li>
+			<li><a>Park</a>
+				<ul>
+					<li><a href="cher_park.html">Recuperer</a></li>				
+					<li><a href="index_bus.html">Ajouter</a></li>
+				</ul></li>
+			<li><a>Bus</a>
+				<ul>
+					<li><a href="cher_bus.html">Recuperer</a></li>				
+					<li><a href="../php/liste_bus.php">Lister</a></li>
+					<li><a href="index_bus.html">Ajouter</a></li>
+					<li><a href="cher_revenue.html">Revenue</a></li>
+				</ul></li>		
+			<li><a>Carnet</a>
+				<ul>
+					<li><a href="../php/liste_carnet.php">Lister</a></li>
+					<li><a href="index_carnet.html">Ajouter</a></li>
+				</ul></li>			
+			<li><a>Ticket</a>
+				<ul>
+					<li><a href="../php/liste_ticket.php">Lister</a></li>
+					<li><a href="index_ticket.html">Ajouter</a></li>
+				</ul></li>
+			<li><a>Passage</a>
+				<ul>
+					<li><a href="../php/liste_passage.php">Lister</a></li>
+					<li><a href="index_passage.html">Ajouter</a></li>
+				</ul></li>
+		</ul>
+	</div>
+<div class="beb">
+<h1>Recuperation des donnée d'un bus...</h1>
+<div class="cont">
+	<form method="post" action="../php/cher_bus_result.php">
+	<input type="text" id="num" name="id_bus" autocomplete="off" placeholder="saisir le numero du bus" required>
+	<input type="submit" value="Recuperer">
+</form>
+</div>
+</div>
+</body>
+</html>

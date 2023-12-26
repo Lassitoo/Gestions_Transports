@@ -1,0 +1,66 @@
+<html>
+<head>
+<title>acceuil</title>
+<link rel="stylesheet" type="text/css" href="../css/passage.css" />
+<meta charset="UTF-8" >
+</head>
+<body>
+	<div class="menu">
+		<div class="p1">
+			Gestion de transport..
+		</div>
+		<ul>
+			<li class="mo"><a class="ac" href="acceuil copy.html">Acceuil</a></li>
+			<li><a>Park</a>
+				<ul>
+					<li><a href="cher_park.html">Recuperer</a></li>				
+					<li><a href="index_park.html">Ajouter</a></li>
+				</ul></li>
+			<li><a>Bus</a>
+				<ul>
+					<li><a href="cher_bus.html">Recuperer</a></li>				
+					<li><a href="../php/liste_bus.php">Lister</a></li>
+					<li><a href="index_bus.html">Ajouter</a></li>
+					<li><a href="cher_revenue.html">Revenue</a></li>
+				</ul></li>		
+			<li><a>Carnet</a>
+				<ul>
+					<li><a href="../php/liste_carnet.php">Lister</a></li>
+					<li><a href="index_carnet.html">Ajouter</a></li>
+				</ul></li>			
+			<li><a>Ticket</a>
+				<ul>
+					<li><a href="../php/liste_ticket.php">Lister</a></li>
+					<li><a href="index_ticket.html">Ajouter</a></li>
+				</ul></li>
+			<li><a>Passage</a>
+				<ul>
+					<li><a href="../php/liste_passage.php">Lister</a></li>
+					<li><a href="index_passage.html">Ajouter</a></li>
+				</ul></li>
+		</ul>
+	</div>
+	<div class="beb">
+			<div class="cont">
+				<h3>Ajout d'un passage...</h3><br>
+				<form method="post" action="../php/insert_passage.php">
+				<label for="num">Numero D'imatriculation du bus</label>
+				<input type="text" id="num" name="id_bus" placeholder="matricule du bus" required>
+				<label for="nums">Nom Du station</label>
+				<input type="text" id="nums" name="id_station" placeholder="nom de la station" required>
+				<label for="nbp">Nombre de place</label>
+				<input type="number" id="nbp" name="nb_place" placeholder="le nombre de chaise" required>				
+				<label for="num">Nombre De passager monter</label>
+				<input type="number" id="num" name="nb_monte" placeholder="ce qui vienne de rentrer du bus" required>
+				<label for="numd">Nombre De passager descendue</label>
+				<input type="number" id="numd" name="nb_descend" placeholder="ce qui ont quiter le bus" required>
+				<label for="numr">Nombre De passagers restee</label>
+				<input type="number" id="numr" name="nb_reste" placeholder="les persones qui ne sont pas descendue" required>				
+				<input type="submit" value="Envoyer">
+				<input type="reset" value="annuler">
+				<br>
+			</form>
+			</div>
+	<div>
+</body>
+</html>

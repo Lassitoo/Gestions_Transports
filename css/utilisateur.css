@@ -1,0 +1,97 @@
+body
+{
+	background-image: url("../photo/1bienvenue.jpg");
+	background-position: center;
+	background-size: cover;
+}
+
+.beb
+{
+	background-color: white;
+	color: black;
+	border: 3px solide transparent;
+	border-top-left-radius: 10% 50%;
+	border-bottom-left-radius: 10% 50%;
+	position: absolute;
+	top: 50%;
+	left: 85%;
+	transform: translate(-50%,-50%);
+	text-align: left;
+	padding: 30px;
+	width: 25%;
+	margin: auto;
+	font-weight: bold;
+}
+input[type=text] , input[type=password]
+{
+  width: 100%;
+  padding: 12px;
+  border: 1px solid black;
+  border-radius: 10px 10px 10px 10px;
+  margin-top: 10px;
+  margin-bottom: 16px;
+}
+
+input[type=submit]:hover
+{
+	background-color: green;
+	color: white;
+}
+input[type=submit]
+{
+	border: 3px solid white;
+	border-radius: 40px 40px;
+	background-color: black;
+	color: white;
+	font-size: 15px;
+	float: right;
+	padding: 15px;
+	transition: 0.8s ease;
+}
+
+ input[type=reset]
+{
+	border: 3px solid white;
+	border-radius: 40px 40px;
+	background-color: black;
+	color: white;
+	font-size: 15px;
+	float: right;
+	padding: 15px;
+	transition: 0.8s ease;
+	margin-right: 100px;
+}
+
+input[type=reset]:hover
+{
+	background-color: red;
+	color: white;
+}
+
+.opo
+{
+	background-color:white;
+	margin-right: 90%;
+	text-align: center;
+	line-height: 35px;
+	border-radius: 20px 0px 20px 0px;
+	width: 13%;
+}
+
+.opo:hover
+{
+	background-color: silver;
+	transition: 1.5s ease;
+}
+
+.opo:hover a
+{
+	color: white;
+}
+
+a
+{
+	color: black;
+	text-decoration: none;
+	font-weight: bold;
+}
